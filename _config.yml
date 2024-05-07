@@ -8,15 +8,16 @@ version: 2
 # Personal info
 name: 박세중
 title: 서버 백엔드 엔지니어
-email: lunalynnk@gmail.com
-website: www.github.com/lynnkay
+email: lunaticlight123@gmail.com
+phone: 010-8476-4876
+# website: www.github.com/lynnkay
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 # twitter_username: facespics
-github_username:  lynnkay
+# github_username:  lynnkay
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -30,7 +31,7 @@ github_username:  lynnkay
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
+# additional_links:
 # - title: itsgoingto.be
 #   icon: fas fa-globe
 #   url: https://www.itsgoingto.be
@@ -46,71 +47,79 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+# about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Python & Django 위주의 6년 차 개발자로 웹 서비스를 개발/배포/운영하였습니다. 주로 웹 서비스 개발을 담당했고 데이터 수집 및 데이터 분석, AI 학습도 진행했습니다.
+  
+  서비스의 질을 높일 수 있는 방법을 많이 생각합니다. 이를위해 여러 신규 기술과 더 좋은 로직을 찾는것을 노력했습니다. 또한 작은 규모의 개발팀에서 일하면서 여러 외부업체 또는 개발자들과 협업을 진행했고 그들과 커뮤니케이션을 하며 서비스의 질을 높이기위해 노력했습니다.
+  
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: 카이모바일
+        link: http://kaimobile.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: 개발팀 / 프로그램개발
+        caption: 2017.12 ~ 2023.09
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            - 생성형 AI모델 학습
+            - 데이터 수집 및 분석로직 개발
+            - Django, Django templete 사용하는 웹 개발 프로젝트 참여
+            - Java Spring Boot, React, React Native 사용하는 웹앱 개발 프로젝트 참여
+            - 레거시 시스템 마이그레이션 (Java 8 & Oracle => Java 11 & MariaDB)
+            - 프로젝트 개발환경 관리에 Docker 도입
 
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        quote: >
+          현재 업무에 사용중 또는 사용했던 기술들입니다.
+          
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+              - Python, Java
+              - Django, FastAPI, Spring Boot
+              - Pandas, Scipy, Pytorch
+              - Django ORM, JPA, Querydsl, MyBatis
+              - Pycharm, IntelliJ
+              
+      - layout: left
+        title: DevOps
+        description: | # this will include new lines to allow paragraphs
+              - Mysql, PostreSQL, MariaDB, Redis
+              - Github Action, Jenkins
+              - AWS EC2
+              - Nginx, Unicorn, Tomcat
+              - Linux CentOS, Rocky Linux, Docker, Docker Compose
+              
+      - layout: left
+        title: Frontend
+        description: | # this will include new lines to allow paragraphs
+              - ES6
+              - Django Template, Thymeleaf
+              - Npm
+              - React, React Native
+            
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: 패스트캠퍼스 텍스트 분석 자연어 처리를 위한 머신러닝 CAMP
+        caption: 2018.05 - 2018.06
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+          - 자연어처리 교육
+          
+      - layout: left
+        title: 한국항공대학교
+        caption: 2010.03 ~ 2018.02
+        description: | # this will include new lines to allow paragraphs
+          - 항공재료공학과
+          - 소프트웨어공학과 (복수전공)
 
 # Footer
 footer_show_references: true
